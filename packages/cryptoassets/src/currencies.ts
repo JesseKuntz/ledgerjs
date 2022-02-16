@@ -1566,6 +1566,30 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
     ],
     explorerViews: [],
   },
+  mina: {
+    type: "CryptoCurrency",
+    id: "mina",
+    coinType: 12586,
+    name: "Mina",
+    managerAppName: "Mina",
+    ticker: "MINA",
+    scheme: "mina",
+    color: "#000000",
+    family: "mina",
+    units: [
+      {
+        name: "MINA",
+        code: "MINA",
+        magnitude: 8, // TODO: figure out the correct magnitude
+      },
+    ],
+    explorerViews: [
+      {
+        tx: "https://hubble.figment.io/mina/chains/mainnet/transactions/$hash",
+        address: "https://hubble.figment.io/mina/chains/mainnet/accounts/$hash",
+      },
+    ],
+  },
   mix: {
     type: "CryptoCurrency",
     id: "mix",
