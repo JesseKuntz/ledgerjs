@@ -1578,9 +1578,14 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
     family: "mina",
     units: [
       {
-        name: "MINA",
+        name: "mina",
         code: "MINA",
-        magnitude: 8, // TODO: figure out the correct magnitude
+        magnitude: 9,
+      },
+      {
+        name: "nanomina",
+        code: "nanomina",
+        magnitude: 0,
       },
     ],
     explorerViews: [
