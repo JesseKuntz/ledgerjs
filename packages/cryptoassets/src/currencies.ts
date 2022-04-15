@@ -1620,8 +1620,8 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
     ],
     explorerViews: [
       {
-        tx: "https://hubble.figment.io/mina/chains/mainnet/transactions/$hash",
-        address: "https://hubble.figment.io/mina/chains/mainnet/accounts/$hash",
+        tx: "https://minaexplorer.com/transaction/$hash",
+        address: "https://minaexplorer.com/wallet/$hash",
       },
     ],
   },
